@@ -113,7 +113,7 @@ def array123(nums):
     match_list = [1,2,3]
     for i in range(len(nums)):
         if nums[i:i+3] == match_list:
-        return True
+            return True
     return False
 
 def string_match(a, b):
